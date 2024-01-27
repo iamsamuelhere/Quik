@@ -1,0 +1,12 @@
+=>AUTH
+/sign-up - Business register
+  - Sucess: [Generate, store, send uniqueID to client to generate QR]
+/sign-in - Business signin
+  - Sucess: [Send stored QR code]
+
+=>MENU
+CRUD - Menu for Business
+
+=>Public Access
+/Business?id={id}
+ - Success: Fetch menus for the given restaurent 
